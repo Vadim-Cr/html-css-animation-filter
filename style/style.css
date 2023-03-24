@@ -26,7 +26,30 @@ background-color: red;
     height: 100px;
     width: 100px;
     background-color: red;
+    transition: all 4s linear 0s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+
+}
+/* qui finisce l'esercizio 2 */
+
+
+/* qui inizia l'esercizio 3 */
+.ex-3-square{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 0.5s linear 0s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50px;
 }
 
 
-/* qui finisce l'esercizio 2 */
+/* qui finisce l'esercizio 3 */
+
+
+
