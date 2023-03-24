@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* qui inizia l'esercizio 1 */
+.ex-1-square{
+    height: 100px;
+    width: 100px;
+    border: solid 1px red;
+    transition: all 1.5s ease 0s;
+}
+
+.ex-1-square:hover{
+background-color: red;
+
+}
+/* qui finisce l'esercizio 1 */
+
+
+
+/* qui inizia l'esercizio 2 */
+
+.ex-2-square{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+/* qui finisce l'esercizio 2 */
