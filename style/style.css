@@ -18,7 +18,7 @@ background-color: red;
 }
 /* qui finisce l'esercizio 1 */
 
-
+/* ----------------------------------------------------------------------- */
 
 /* qui inizia l'esercizio 2 */
 
@@ -35,6 +35,7 @@ background-color: red;
 }
 /* qui finisce l'esercizio 2 */
 
+/* ----------------------------------------------------------------------- */
 
 /* qui inizia l'esercizio 3 */
 .ex-3-square{
@@ -47,9 +48,169 @@ background-color: red;
 .ex-3-square:hover{
     border-radius: 50px;
 }
-
-
 /* qui finisce l'esercizio 3 */
 
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 4 */
+.ex-4-square{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 0.5s linear 0s;
+}
+
+.ex-4-square:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+/* qui finisce l'esercizio 4 */
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 5 */
+.ex-5-square{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    transition: all 2s, height 2s;
+
+    margin: 25px;
+}
+
+.ex-5-square:hover{
+    scale: 2;
+}
+
+.ex-5-square:active{
+    width: 20px;
+    height: 20px;
+}
+/* qui finisce l'esercizio 5 */
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 6 */
+.ex-6-img{
+    max-width: 45%;
+    max-height: 45%;
+}
+
+.ex-6-img:hover{
+filter: sepia(1);
+}
+/* qui finisce l'esercizio 6 */
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 7 */
+.ex-7-img:hover{
+animation: example 2s ease-in;
+
+}
+.modifier:active{
+animation: blur-img 2s ease-in;
+}
 
 
+@keyframes example {
+        from{
+            filter: brightness(40%) blur(1px);
+        }
+        to{
+            filter: brightness(150%) blur(5px);
+        }
+
+    }
+
+
+/* qui finisce l'esercizio 7 */
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 8 */
+.ex-8-img{
+    transition: all 1s linear 0s;
+}
+
+.ex-8-img:hover{
+    border-radius: 15px;
+    animation: combo 6s linear 0s 1;
+}
+@keyframes combo {
+    from{
+        filter: contrast(10%) sepia(79%); 
+    }
+    to{
+        filter: contrast(40%) sepia(1%); 
+    }
+}
+
+/* qui finisce l'esercizio 8 */
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 9 */
+.ex-9-img{
+    width: 25%;
+    transition: all 1s linear 0s;
+    translate: 25%;
+    margin: 70px;
+}
+
+.ex-9-img:hover{
+    scale: 2;
+    border-radius: 15px;
+    animation: maxicombo 3s ease 1;
+}
+
+@keyframes maxicombo {
+    from{
+        filter: blur(2px) grayscale(20%);
+    }
+    to{
+        filter: blur(20px) grayscale(66%);
+    }
+    
+}
+/* qui finisce l'esercizio 9 */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* qui inizia l'esercizio 10 */
+
+.ex-10-icon{
+    font-size: 50px;
+    width: 50px;
+}
+
+.ex-10-icon:hover{
+    animation: spin 1s linear 0s infinite ;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(1turn);
+    }
+    
+}
+/* qui finisce l'esercizio 10 */
+
+/* qui inizia l'esercizio 10 */
+
+.ex-11-icon{
+    font-size: 50px;
+    width: 50px;
+}
+
+.ex-11-icon:hover{
+    animation: reversespin 2s linear 0s infinite ;
+}
+
+@keyframes reversespin {
+   85%{
+        transform: rotate(0.75turn);
+    }
+    
+}
+/* qui finisce l'esercizio 10 */
